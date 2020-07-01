@@ -1,11 +1,13 @@
+#include <memory>
+
 class Test {
-  public:
-      void deleteThis() {
-          delete const_cast<Test*>(this);
-      }
+public:
+    constexpr virtual inline void deleteThis(void) const volatile {
+        delete (void*)const_cast<Test*>(this);
+    }
 };
 
 int main() {
-    Test test;
-    test.deleteThis();
+    std::auto_ptr<Test> test(std::unique_ptr<Test>(new Test).get());
+    test->deleteThis();
 }
