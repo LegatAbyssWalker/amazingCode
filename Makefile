@@ -1,6 +1,6 @@
-all: amazing sort
+amazing: amazingReturn0.cpp,
+	 amazingMaxMin.cpp
 
-amazing: main.cpp
 	# THIS COMPILES WITH ALL EXTRA PEDANTIC
 	# JUST HOW
 	g++-10 $^ -o $@ -Wall -Wextra -pedantic -O3 -std=c++20

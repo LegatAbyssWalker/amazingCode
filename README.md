@@ -1,4 +1,2 @@
 # amazingCode
-this is the most amazing code
-
-The most amazing code. Replaces `return 0`.
+Compilation of the most amazing code out there
