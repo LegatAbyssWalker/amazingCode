@@ -14,9 +14,9 @@
 
 # How to Contribute
 
-Write code that compiles in C++ 20 **that compiles**, but that either doesn't work or fails in a fun way.
+Write code in C++ 20 **that compiles**, but that either doesn't work or fails in a fun way.
 
-# List of contributors
+# List of Contributors
 * LegatAbyssWalker
 * MoonSheep
 * Binkiklou
