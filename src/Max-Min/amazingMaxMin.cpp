@@ -1,8 +1,9 @@
 #include <iostream>
 
-int amazingMax(int a, int b)
+template<typename T, typename R>
+T amazingMax(T a, R b)
 {
-    int i = 0;
+    T i = 0;
     
     for(;i < a; i++);
     for(;i < b; i++);
@@ -10,9 +11,10 @@ int amazingMax(int a, int b)
     return i;
 }
 
-int amazingMin(int a, int b)
+template<typename T, typename R>
+T amazingMin(T a, Rint b)
 {
-    int i = 0;
+    T i = 0;
     
     for(;i < a; i++);
     for(;i > b; i--);
