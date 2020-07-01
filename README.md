@@ -1,12 +1,15 @@
+<!-- It's fine if there's HTML in a readme, cuz it compiles ¯\_(ツ)_/¯-->
+
 <p align = 'center'>
-  <img src = 'https://github.com/LegatAbyssWalker/amazingCode/blob/master/img/amazingCode.png>
+  <img src = 'https://github.com/LegatAbyssWalker/amazingCode/blob/master/img/amazingCode.png'>
+</p>
+
 <br>
 
 <div align = 'center'>
   <strong>"It's fine if it compiles ¯\_(ツ)_/¯"</strong>
+  <img src='https://github.com/LegatAbyssWalker/amazingCode/blob/master/img/spash.jpg'>
 </div>
-
-![](https://github.com/LegatAbyssWalker/amazingCode/blob/master/img/spash.jpg)
 
 # How to Contribute
 
