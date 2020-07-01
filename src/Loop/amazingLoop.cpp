@@ -3,15 +3,15 @@
 #include <iostream>
 #include <stdio.h>
 
-void nice();
+void loop();
 
 int main(void)
 {
-    nice();
+    loop();
     return 0;
 }
 
-void nice()
+void loop()
 {
     std::cout<<"This is amazing!"<<std::endl;
     asm("jmp main");

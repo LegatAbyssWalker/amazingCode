@@ -366,3 +366,4 @@ MigrationBackup/
 *.filters
 
 .vscode/*
+*.o
