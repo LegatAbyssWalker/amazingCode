@@ -6,9 +6,8 @@
 
 <div align = 'center'>
   <strong>"It's fine if it compiles ¯\_(ツ)_/¯"</strong>
+  ![](https://github.com/LegatAbyssWalker/amazingCode/blob/master/img/spash.jpg)
 </div>
-
-![](https://github.com/LegatAbyssWalker/amazingCode/blob/master/img/spash.jpg)
 
 # How to Contribute
 
