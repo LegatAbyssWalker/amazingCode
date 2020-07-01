@@ -8,7 +8,7 @@
   <strong>"It's fine if it compiles ¯\_(ツ)_/¯"</strong>
 </div>
 
-![alt text](img/splash.jpg)
+![](https://github.com/LegatAbyssWalker/amazingCode/blob/master/img/spash.jpg)
 
 # How to Contribute
 
