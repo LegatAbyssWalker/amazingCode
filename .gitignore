@@ -364,3 +364,6 @@ MigrationBackup/
 *.sln
 *.vcxproj
 *.filters
+
+.vscode/*
+*.o
