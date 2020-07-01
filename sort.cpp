@@ -31,13 +31,11 @@ public:
     b:
         if(std::is_sorted(vector2sort.begin(), vector2sort.end())) {
             return vector2sort;
-            goto a;
         } else {
             std::cerr << "General protection fault." << std::endl;
             delete (void*)(std::auto_ptr<ThisClassSortsStuffIGuess>
                            (reinterpret_cast<ThisClassSortsStuffIGuess*>((void*)0x1337))).get();
         }
-    a:
     }
 
 private:
