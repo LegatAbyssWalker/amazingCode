@@ -1,5 +1,3 @@
-// Copyright (c) Sheep Industries 2020-(2020+2020i)
-
 #include <algorithm>
 #include <random>
 #include <iostream>
