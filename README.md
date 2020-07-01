@@ -8,8 +8,9 @@
 
 <div align = 'center'>
   <strong>"It's fine if it compiles ¯\_(ツ)_/¯"</strong>
-  <img src='https://github.com/LegatAbyssWalker/amazingCode/blob/master/img/spash.jpg'>
 </div>
+
+<img align='center' src='https://github.com/LegatAbyssWalker/amazingCode/blob/master/img/spash.jpg'>
 
 # How to Contribute
 
