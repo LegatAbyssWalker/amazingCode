@@ -1,6 +1,5 @@
 <p align = 'center'>
-  <img src = 'https://github.com/LegatAbyssWalker/amazingCode/blob/master/img/amazingCode.png
-
+  <img src = 'https://github.com/LegatAbyssWalker/amazingCode/blob/master/img/amazingCode.png>
 <br>
 
 <div align = 'center'>
