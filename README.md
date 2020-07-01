@@ -8,4 +8,6 @@
   <strong>It's fine if it compiles ¯\_(ツ)_/¯</strong>
 </div>
 
-# Contributors
+# How to Contribute
+
+Write code that compiles in C++ 20 **that compiles**, but that either doesn't work or fails in a fun way.
