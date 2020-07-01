@@ -1,3 +1,5 @@
+// Code by Binkiklou
+
 #include <iostream>
 #include <stdio.h>
 
