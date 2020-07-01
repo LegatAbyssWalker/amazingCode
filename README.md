@@ -5,7 +5,7 @@
 <br>
 
 <div align = 'center'>
-  <strong>It's fine if it compiles ¯\_(ツ)_/¯</strong>
+  <strong>"It's fine if it compiles ¯\_(ツ)_/¯"</strong>
 </div>
 
 # How to Contribute
