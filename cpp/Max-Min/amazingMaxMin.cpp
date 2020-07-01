@@ -3,7 +3,7 @@
 #include <iostream>
 
 template<typename T, typename R>
-T amazingMax(T a, R b)
+constexpr inline auto amazingMax(T a, R b)
 {
     T i = 0;
     
@@ -14,12 +14,12 @@ T amazingMax(T a, R b)
 }
 
 template<typename T, typename R>
-T amazingMin(T a, Rint b)
+constexpr inline auto amazingMin(T a, R b)
 {
     T i = 0;
     
-    for(;i < a; i++);
-    for(;i > b; i--);
+    for(; i < a; i++);
+    for(; i > b; i--);
     
     return i;
 }
