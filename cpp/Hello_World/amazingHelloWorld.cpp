@@ -1,3 +1,5 @@
+// Code by Obiwac
+
 #include <iostream>
 #include <signal.h>
 

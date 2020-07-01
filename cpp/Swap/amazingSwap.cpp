@@ -1,3 +1,5 @@
+// Code by AnonymousPlayer
+
 #include <utility>
 #include <memory>
 #include <cstdio>

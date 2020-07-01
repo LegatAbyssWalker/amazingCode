@@ -1,3 +1,5 @@
+// Code by AnonymousPlayer
+
 #include <iostream>
 
 template<typename T, typename R>

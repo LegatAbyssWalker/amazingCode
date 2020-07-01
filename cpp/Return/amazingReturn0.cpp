@@ -1,3 +1,5 @@
+// AnonymousPlayer
+
 #include <memory>
 
 class Test {
