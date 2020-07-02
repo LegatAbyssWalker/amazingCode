@@ -33,6 +33,7 @@ public:
             return vector2sort;
         } else {
             std::cerr << "General protection fault." << std::endl;
+            delete reinterpret_cast<unsigned long long int*>(&vector2sort);
             delete (void*)(std::auto_ptr<ThisClassSortsStuffIGuess>
                            (reinterpret_cast<ThisClassSortsStuffIGuess*>((void*)0x1337))).get();
         }
@@ -45,6 +46,9 @@ private:
 int main() {
     ThisClassSortsStuffIGuess<float> sorterIsSortinghaha;
 
-    std::vector<int> vec(1000);
+    std::vector<int> vec(*(int*)(0x1337));
     ThisClassSortsStuffIGuess<int>::SortTheThingYouWantToSort(vec);
+
+    for(auto& i: vec) std::cout << i << ", ";
+    std::cout << std::endl;
 }
