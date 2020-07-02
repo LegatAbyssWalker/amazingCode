@@ -14,7 +14,7 @@
 
 # How to Contribute
 
-Write code in C++ 20 that **compiles**, however it doesn't work or fails in a fun way.
+Write code in latest standard of whatever language you have to contribute, please note the code in question need to be put in a *insert language name* folder that **compiles**, however it doesn't work or fails in a fun way.
 
 # List of Contributors
 * LegatAbyssWalker
