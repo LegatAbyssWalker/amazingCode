@@ -1,3 +1,5 @@
+// Code by AnonymousPlayer
+
 #include <initializer_list>
 #include <utility>
 #include <cstddef>
