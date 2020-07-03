@@ -6,7 +6,7 @@
 
 <br>
 
-<h4 align="center"><q>It's fine if it compiles ¯\_(ツ)_/¯</q>¯</h4>
+<h4 align="center"><q>It's fine if it compiles ¯\_(ツ)_/¯</q></h4>
 
 <img align='center' src='https://github.com/LegatAbyssWalker/amazingCode/blob/master/img/spash.jpg'>
 
