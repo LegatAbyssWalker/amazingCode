@@ -25,4 +25,4 @@ Write code in latest standard of whatever language you have to contribute, pleas
 * Hopson
 * AnonymousPlayer
 * Obiwac
-* qookie
+* qookei
