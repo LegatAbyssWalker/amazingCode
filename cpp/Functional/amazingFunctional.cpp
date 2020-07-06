@@ -9,12 +9,15 @@ template<typename> class amazingFunction;
 template<typename Result,typename... Arguments>
 class amazingFunction<Result(Arguments...)> 
 {
-protected:
+private:
     Result(*FuncImpl)(Arguments...)=nullptr;
 
     struct Useless{};
 
     std::tuple<Arguments...> FuncArgs;
+
+    template< bool Condition, typename Value >
+    using ResolvedType = typename std::enable_if< Condition, Value >::type;
 public:
     amazingFunction(){}
 
@@ -52,14 +55,15 @@ public:
         return FuncImpl(Args...);
     }
 
-    typename std::enable_if<(sizeof...(Arguments)!=0),Result>::type operator()()
+    template< typename Value = Result >
+    ResolvedType< (sizeof...(Arguments) != 0), Value > operator()()
     {
         if(FuncImpl==nullptr)
             throw std::runtime_error("Bad function");
 
         return std::apply([this](auto&&... args)
         { 
-            return FuncImpl(args...); 
+            return FuncImpl(std::forward<decltype(args)>(args)...); 
         }, FuncArgs);
     }
 };
