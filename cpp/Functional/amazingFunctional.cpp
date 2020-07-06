@@ -1,6 +1,7 @@
 // Code by Anonymous
 
 #include <tuple>
+#include <utility>
 #include <stdexcept>
 
 template<typename> class amazingFunction;
@@ -51,19 +52,22 @@ public:
         return FuncImpl(Args...);
     }
 
-    template<typename std::enable_if<(sizeof...(Arguments)!=0),Useless>>
-    Result operator()()
+    typename std::enable_if<(sizeof...(Arguments)!=0),Result>::type operator()()
     {
         if(FuncImpl==nullptr)
             throw std::runtime_error("Bad function");
-        auto [Args]=std::apply([](auto&&... Args){return std::forward_as_tuple(Args...);}, FuncArgs);
-        return FuncImpl(Args);
+
+        return std::apply([this](auto&&... args)
+        { 
+            return FuncImpl(args...); 
+        }, FuncArgs);
     }
 };
 
 int main()
 {
-    amazingFunction<int()> f=[]{return 4;};
-    auto var=f();
+    amazingFunction<int(int, int)> f=[](int a, int b){return a + b;};
+    f.bind(3, 4);
+    auto var = f();
     return 0;
 }
