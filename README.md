@@ -29,3 +29,4 @@ Write code in latest standard of whatever language you have to contribute, pleas
 * AnonymousPlayer
 * Obiwac
 * qookei
+* DeKrain
