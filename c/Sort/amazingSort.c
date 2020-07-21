@@ -181,9 +181,9 @@ void ArraySorter__amazingSort(ArraySorter * const this, IntegerArray * const arr
 	s->vptr->swap(s);
 	array->vptr->set(array, i, a);
 	array->vptr->set(array, j, b);
-	Swapper__dtor(s);
-	delete(s);
       }
+      Swapper__dtor(s);
+      delete(s);
     }
   }
 }
