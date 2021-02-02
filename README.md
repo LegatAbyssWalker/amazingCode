@@ -1,4 +1,4 @@
-<!-- It's fine if there's HTML in a readme, cuz it compiles ¯\_(ツ)_/¯-->
+<!-- It's fine if there's HTML in a readme, cuz it compiles ¯\_(ツ)_/¯ lol-->
 <!-- Yeah, that's right, also images go in absolute and not relative paths because they compile too -->
 <!-- Also relative paths didn't work for some reason -->
 
@@ -22,6 +22,7 @@ AmazingC ode, is a project aiming to create the worst code ever made. The code m
 Write code in latest standard of whatever language you have to contribute, please note the code in question need to be put in a *insert language name* folder that **compiles**.
 
 # ListO fC ontributors
+* abhra2020-smart
 * LegatAbyssWalker
 * MoonSheep
 * Binkiklou
