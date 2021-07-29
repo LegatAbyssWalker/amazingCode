@@ -31,3 +31,4 @@ Write code in latest standard of whatever language you have to contribute, pleas
 * qookei
 * DeKrain
 * OdnetninI
+* Alluysl
